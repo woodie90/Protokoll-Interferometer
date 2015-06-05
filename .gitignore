@@ -28,3 +28,4 @@
 *blx.bib 
 *.run.xml
 *.synctex.gz
+.texpadtmp/
