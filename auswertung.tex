@@ -2,70 +2,36 @@
 
 Die Auswertung erfolgte in MathCad anhand der per Kamera aufgenommenen Bilder.
 
-<<<<<<< HEAD
-Zunächst wurde sich für eine qualitativ geeignete Bildzeile mit möglichst wenig Störungen entschieden. Es folgte ein Auslesen des Interferenzmusters über die Helligkeitswerte, um ein von der Bildspalte abhängiges Signal $P(s)$ zu erhalten; hierfür wurden geeignete Filter zur Elimination der Störungen verwendet. Aus dem erhaltenen (reellen) Signal wurde per Hilbert-Transformation das analytische Signal $P_c(s) = P(s) + \mathrm j \mathcal H\left\lbrace P(s) \right\rbrace$ generiert, das nun Phaseninformationen $\varphi(s)=\arg P_c(s)$ enthielt. Anschließend wurde aus der Phasendifferenz $\Delta\varphi(s)$  zwischen den beiden Signalen die Dickendifferenz $\Delta\varphi\lambda_0 / 2\pi n_M$ errechnet. Die jeweils letzten Diagramme der Anhänge zeigen den Verlauf der Dickendifferenz über die Breite des Laserstrahls. Da man den Lauflängenunterschied des Laserstrahls misst, kann demnach keine absolute Dicke angegeben werden, sondern lediglich eine Dickenänderung.
+Zunächst wurde sich für eine qualitativ geeignete Bildzeile mit möglichst wenig Störungen entschieden. Es folgte ein Auslesen des Interferenzmusters über die Helligkeitswerte, um ein von der Bildspalte abhängiges Signal $P(s)$ zu erhalten; hierfür wurden geeignete Filter zur Elimination der Störungen verwendet. Aus dem erhaltenen (reellen) Signal wurde per Hilbert-Transformation das analytische Signal $P_c(s) = P(s) + \mathrm j \mathcal H\left\lbrace P(s) \right\rbrace$ generiert, das nun Phaseninformationen $\varphi(s)=\arg P_c(s)$ enthielt. Anschließend wurde aus der Phasendifferenz $\Delta\varphi(s)$  zwischen den beiden Signalen die Dickendifferenz $\Delta\varphi\lambda_0 / 2\pi n_M$ errechnet. Die jeweils letzten Diagramme der Anhänge zeigen den Verlauf der Dickendifferenz über die Breite des Laserstrahls. Da der Lauflängenunterschied des Laserstrahls gemessen wurde, kann demnach keine absolute Dicke angegeben werden, sondern lediglich eine deren Änderung.
 
 \subsection{Messungen}
-=======
-Zunächst wurde sich für eine qualitativ geeignete Bildzeile mit möglichst wenig Störungen entschieden. Es folgte ein Auslesen des Interferenzmusters über die Helligkeitswerte, um ein von der Bildspalte abhängiges Signal $P(s)$ zu erhalten; hierfür wurden geeignete Filter zur Elimination der Störungen verwendet. Aus dem erhaltenen (reellen) Signal wurde per Hilberttransformation das analytische Signal $P_c(s) = P(s) + \mathrm j \mathcal H\left\lbrace P(s) \right\rbrace$ generiert, das nun Phaseninformationen $\varphi(s)=\arg P_c(s)$ enthielt. Anschließend wurde aus der Phasendifferenz $\Delta\varphi(s)$  zwischen den beiden Signalen die Dickendifferenz $\Delta\varphi\lambda_0 / 2\pi n_M$ errechnet. Die jeweils letzten Diagramme der Anhänge zeigen den Verlauf der Dickendifferenz über die Breite des Laserstrahls. Da der Lauflängenunterschied des Laserstrahls gemessen wurde, kann demnach keine absolute Dicke angegeben werden, sondern lediglich eine deren Änderung.
-
-In diesem Versuch wurden verschiedene Objekte vermessen:
->>>>>>> 1eb88ea71687162680cb7a4b2833c48dbaf37361
 
 \paragraph{Handelsübliche Brille (\texttt{brille2.bmp})}
 
 Die Linse einer Brille wird meist so geschliffen, dass der Rand der Linse eine ähnliche Dicke hat wie der das Brillenglas einfassende Rahmen. Als Freiheitsgrade zur Strahlbrechung bleiben demnach die Veränderung der Dicke ins Linseninnere und eine (leichte) Krümmung.
-Die Dickenänderung lässt sich wie erwartet in dem letzten Diagramm erkennen: Innerhalb des mit dem Laser durchstrahlten Bereich verdickt sich das Brillenglas in etwa um $6\mu m$.
+Die Dickenänderung lässt sich wie erwartet in dem letzten Diagramm erkennen: Innerhalb des mit dem Laser durchstrahlten Bereich verdickt sich das Brillenglas in etwa um $\SI{6}{\micro\meter}$.
  
 \paragraph{Laserschutzbrille (\texttt{laserbrille3.bmp})}
 Da die Laserschutzbrille keinen eingearbeiteten Sehschwächenausgleich in Form einer Linse hat, sollte die Oberfläche plan sein. Dies lässt sich durch die Krümmung des Schutzglases jedoch nicht einfach erkennen oder mechanisch abmessen. 
-Tatsächlich zeigt die Messung eine Schwankung von knapp $1\mu m$.Da diese Dickenänderung linear ansteigt, ist davon auszugehen, dass es sich hier um kleine Fertigungstoleranzen handelt.
+Tatsächlich zeigt die Messung eine Schwankung von knapp $\SI{1}{\micro\meter}$. Es ist davon auszugehen, dass es sich hierbei um eine fertigungsbedingte Verdickung zur mechanischen Stabilisierung handelt.
 
 \paragraph{Linse (\texttt{linse4.bmp})}
 Die hier betrachtete Linse ist eine Meniskuslinse. Diese Linse besitzt eine konvexe und eine konkave Fläche. Je nachdem welche der beiden Flächen eine stärkere Krümmung aufweist, handelt es sich um eine Sammel- oder eine Zerstreuungslinse. 
-Tatsächlich ändert sich die Schichtdicke innerhalb des untersuchten Abschnittes um etwa $0,3\mu m$. Die Änderung der Dicke fällt demnach sehr gering aus, was auf eine sehr große Brennweite der Meniskuslinse schließen lässt. 
-
-\paragraph{Kerze in Messstrahl}
-In diesem Versuch haben wir eine Kerze in den Messstrahl eingebracht. Die Flamme der Kerze ist einerseits deutlich wärmer als die Umgebungstemperatur und verändert damit den Brechnungsindex $n_L$ der Luft. Andererseits ändert sich durch die In der Flamme stattfindende Oxidation auch die Gaszusammensetzung der Luft (z.B. geringerer Sauerstoffgehalt). Auch dies verändert den Brechnungsindex $n_L$ der Luft. 
-Aufgrund dieser Brechungsindexänderung war ein schnelles wandern der Interferenzringe auf dem Schirm zu erkennen sobald man die Flamme in den Messstrahl oder aus diesem hinausbewegt hat.
-
-\subsection{Fehler}
-Wenn man die Abbildungen der Interferenzstreifen betrachtet sind sowohl auf den Referenzbilder, als auch auf den Messbilder Beugunsringe zu erkennen. Da diese sich teilweise zwischen Mess- und Referenzbild unterscheide und den Helligkeitsverlauf beeinflussen, ist ein Einfluss auf die Phasenmessung vorstellbar.
-Des Weiteren ist auf dem Interferenzstreifenmuster 'Brille2' ein nicht geradliniger Verlauf der Interferenzstreifen festzustellen. Dies könnte dazu führen, dass allein auf Grund der Krümmungsänderung der Interferenzstreifen ein nicht linearer Verlauf der Hell-Dunkel Unterschiede entsteht, der sich mit den zu messenden Änderungen überlagert.
-
-
-\subsection{Schlussfolgerung}
-Das Mach-Zehnder-Interferometer eignet sich, wie wir in diesem Experiment gezeigt haben, hervorragend um Dickendifferenzen zu messen. Dies kann man unabhängig von der Form der Oberfläche, berührungslos und sehr genau durchführen. Um die absolute Dicke der Messobjekte zu bestimmen ist dieser Messaufbau allerdings nicht geeignet.
-Weiterhin lässt sich mit einem Mach-Zehnder-Interferometer auch eine Änderung der Temperatur detektieren. Dies kann auch sehr genau erfolgen, allerdings ist zu beachten, dass z.B. beim Messen einer Flammentemperatur sich auch die Gaszusammensetzung ändert, was die Messergebnisse verfälscht. 
-Neben Temperaturänderungen lässt sich so jedoch auch die Veränderung einer Gaszusammensetzung (bei konstanter Temperatur) ermitteln. Für eine genauere Bestimmung der Temperatur bzw. der Temperaturänderung wären noch weitere Messaufbauten notwendig.  
-
-<<<<<<< HEAD
-=======
-Die Linse einer Brille wird meist so geschliffen, dass der Rand der Linse eine ähnliche Dicke hat wie der das Brillenglas einfassende Rahmen. Als Freiheitsgrade zur Strahlbrechung bleiben demnach die Veränderung der Dicke ins Linseninnere und eine (leichte) Krümmung.
-Die Dickenänderung lässt sich wie erwartet in dem letzten Diagramm erkennen: Innerhalb des mit dem Laser durchstrahlten Bereich verdickt sich das Brillenglas in etwa um $\SI{6}{\micro\meter}$.
- 
-\paragraph*{Laserschutzbrille (\texttt{laserbrille3.bmp})}
-Da die Laserschutzbrille keinen eingearbeiteten Sehschwächenausgleich in Form einer Linse hat, sollte die Oberfläche plan sein. Dies lässt sich durch die Krümmung des Schutzglases jedoch nicht einfach erkennen oder mechanisch abmessen. 
-Tatsächlich zeigt die Messung eine Schwankung von knapp $\SI{1}{\micro\meter}$. Es ist davon auszugehen, dass es sich hierbei um eine fertigungsbedingte Verdickung zur mechanisches Stabilisierung handelt.
-
-\paragraph*{Linse (\texttt{linse4.bmp})}
-Die hier betrachtete Linse ist eine Meniskuslinse. Diese Linse besitzt eine konvexe und eine konkave Fläche. Je nachdem welche der beiden Flächen eine stärkere Krümmung aufweist, handelt es sich um eine Sammel- oder eine Zerstreuungslinse. 
 Tatsächlich ändert sich die Schichtdicke innerhalb des untersuchten Abschnittes um etwa $\SI{0.3}{\micro\meter}$. Die Änderung der Dicke fällt demnach sehr gering aus, was auf eine sehr große Brennweite der Meniskuslinse schließen lässt. 
 
-\paragraph*{Kerze in Messstrahl}
-In diesem Versuch wurde eine Kerze in den Messstrahl eingebracht. Die Flamme der Kerze war einerseits deutlich wärmer als die Umgebungstemperatur und veränderte damit den Brechnungsindex $n_L$ der Luft. Andererseits änderte sich durch die in der Flamme stattfindende Praffinoxidation auch die Gaszusammensetzung der Luft (z.B. geringerer Sauerstoffgehalt). Auch dies beeinflusste den Brechnungsindex $n_L$ der Luft. 
+\paragraph{Kerze in Messstrahl}
+In diesem Versuch wurde eine Kerze in den Messstrahl eingebracht. Die Flamme der Kerze war einerseits deutlich wärmer als die Umgebungstemperatur und veränderte damit den Brechnungsindex $n_L$ der Luft. Andererseits änderte sich durch die in der Flamme stattfindende Paraffinoxidation auch die Gaszusammensetzung der Luft (z.B. geringerer Sauerstoffgehalt). Auch dies beeinflusste den Brechnungsindex $n_L$ der Luft. 
 Aufgrund dieser Brechungsindexänderung war ein schnelles wandern der Interferenzstreifen auf dem Schirm zu erkennen, sobald die Flamme gegenüber dem Messstrahl bewegt wurde.
 
-\subsection*{Fehlerbetrachtung}
+\subsection{Fehlerbetrachtung}
 Betrachtet man die Abbildungen der Interferenzstreifen sind sowohl auf den Referenzbilder als auch den Messbildern Beugunsringe zu erkennen. Da diese sich teilweise zwischen Mess- und Referenzbild unterscheide und den Helligkeitsverlauf beeinflussen, ist ein Einfluss auf die Phasenmessung vorstellbar.
 
 Des Weiteren ist auf dem Interferenzstreifenmuster \texttt{brille2.bmp} ein nicht geradliniger Verlauf der Interferenzstreifen festzustellen. Dies könnte dazu führen, dass auf Grund der Krümmungsänderung der Streifen selbst ein nicht linearer Verlauf der Hell-Dunkel-Unterschiede entsteht, der sich mit den zu messenden Änderungen überlagert.
 
 
-\subsection*{Schlussfolgerungen}
+\subsection{Schlussfolgerungen}
 Das Mach-Zehnder-Interferometer eignet sich, wie in diesem Experiment gezeigt wurde, hervorragend um Dickendifferenzen zu messen. Dies kann man unabhängig von der Form der Oberfläche, berührungslos und präzise durchführen. Um die absolute Dicke der Messobjekte zu bestimmen ist dieser Messaufbau allerdings nicht geeignet.
 Weiterhin lässt sich mit einem Mach-Zehnder-Interferometer auch eine Änderung der Temperatur detektieren. Dies kann auch sehr genau erfolgen, allerdings ist zu beachten, dass z.B. beim Messen einer Flammentemperatur sich auch die Gaszusammensetzung ändert, was die Messergebnisse verfälscht. 
 Neben Temperaturänderungen lässt sich so jedoch auch die Veränderung einer Gaszusammensetzung (bei konstanter Temperatur) ermitteln. Für eine genauere Bestimmung der Temperatur bzw. der Temperaturänderung wären noch weitere Messaufbauten notwendig.  
 
->>>>>>> 1eb88ea71687162680cb7a4b2833c48dbaf37361
 
